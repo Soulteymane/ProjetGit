@@ -1,0 +1,44 @@
+
+souleymane.sidibe@DCIREODCPR32 MINGW64 ~
+$ cd d:/
+
+souleymane.sidibe@DCIREODCPR32 MINGW64 /d
+$ mkdir ProjetGit
+
+souleymane.sidibe@DCIREODCPR32 MINGW64 /d
+$ cd ProjetGit
+
+souleymane.sidibe@DCIREODCPR32 MINGW64 /d/ProjetGit
+$ touch lisezmoi.txt
+
+souleymane.sidibe@DCIREODCPR32 MINGW64 /d/ProjetGit
+$ git init
+Initialized empty Git repository in D:/ProjetGit/.git/
+
+souleymane.sidibe@DCIREODCPR32 MINGW64 /d/ProjetGit (master)
+$ git add .
+
+souleymane.sidibe@DCIREODCPR32 MINGW64 /d/ProjetGit (master)
+$ git commit -m "Mon premier projet"
+[master (root-commit) 833e1ae] Mon premier projet
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 lisezmoi.txt
+
+souleymane.sidibe@DCIREODCPR32 MINGW64 /d/ProjetGit (master)
+$
+
+souleymane.sidibe@DCIREODCPR32 MINGW64 /d/ProjetGit (master)
+$ git remote add origin https://github.com/Soulteymane/ProjetGit.git
+
+souleymane.sidibe@DCIREODCPR32 MINGW64 /d/ProjetGit (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 222 bytes | 222.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Soulteymane/ProjetGit.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+souleymane.sidibe@DCIREODCPR32 MINGW64 /d/ProjetGit (master)
+
